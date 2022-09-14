@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<main class="main">
+    <body>
+        <header>
+            <h1>Encriptador</h1>
+         </header>    
+    
+    
+        <div class="container">
+            <form>
+                <div class="text-box1">
+                    <textarea name="input-text" id="texto" cols="150" rows="30" style="resize: none" spellcheck="false" placeholder="Ingrese un texto a encriptar o desencriptar usando solo letras minúsculas y sin tildes." class="text1"></textarea>
+                    
+                    <input type="button" value="Encriptar" id="botone" class="boton">      
+                         
+                    <input type="button" value="Desencriptar" id="botond" class="boton">            
+                </div>                
+            </form>                                              
+            <form>
+                <div class="text-box2">
+                    <textarea name="encrypted-text" id="textoe" cols="30" rows="30" style="resize: none" spellcheck="false" class="text2"
+                    placeholder="Texto encriptado / desencriptado"></textarea>
+
+                    <input type="button" value="Copiar texto" id="botonc" class="boton">
+                </div>                    
+            </form>
+            
+        </div>    
+    
+
+    
+   
+    
+    
+        <script src="./funciones.js"></script>
+    
+    </body>
+    
+        <footer>
+            <p>&copy Copyright Gerardo Varela - 2022</p>
+        </footer>
+</main>
+
+
+</html>
